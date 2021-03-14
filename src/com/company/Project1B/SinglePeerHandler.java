@@ -2,7 +2,7 @@ package com.company.Project1B;
 
 import java.net.Socket;
 
-import static com.company.Project1B.Handler.handleSinglePeer;
+import static com.company.Project1B.PeerHandler.handleSinglePeer;
 import static com.company.Project1B.TorrentClient1B.availableBlocks;
 
 

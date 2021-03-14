@@ -14,7 +14,7 @@ import java.util.List;
 import static com.company.Project1B.Parser.parseBlock;
 import static com.company.Project1B.TorrentClient1B.*;
 
-public class Handler {
+public class PeerHandler {
 
     public static void handleSinglePeer(Socket connectionSocket, AllPeerStats peerStats,
                                         int blockNum) throws Exception {

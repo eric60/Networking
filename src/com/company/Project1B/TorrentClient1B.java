@@ -45,7 +45,7 @@ public class TorrentClient1B {
         inFromGradingServer.read(grading1stResponse);
         System.out.println(new String(grading1stResponse, "UTF-8"));
 
-        Handler.startPeerDownloads(peerStats);
+        PeerHandler.startPeerDownloads(peerStats);
 
         System.out.println("---> Sent checksum to Grading Server");
         byte[] checksum = computeXORChecksum(peerStats.allBuffer);
